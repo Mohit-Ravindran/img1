@@ -5,18 +5,20 @@
 }
 
 body {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
     box-sizing: border-box;
+    overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
 
 .container {
-  display: flex;
-  width: 80vw;
-  /* justify-content: space-between; */
-  height: 100vh;
-  min-width: 1100px;
-  margin: auto;
+    display: flex;
+   
 }
+
 
 .left-box {
   flex-basis: 20%;
