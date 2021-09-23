@@ -15,8 +15,18 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
     display: flex;
    
+=======
+  display: flex;
+  width:80%;
+  
+  /* justify-content: space-between; */
+ 
+  min-width: 1100px;
+  margin: auto;
+>>>>>>> d7857fd2f692c46c9a96a786811d591a22fffb41
 }
 
 
