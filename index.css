@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  /* justify-content: space-between; */
+  height: 100vh;
+  min-width: 1100px;
+  margin: auto;
+}
+
+.left-box {
+  flex-basis: 20%;
+  background-color: #f9f9f9;
+}
+.center-box {
+  flex-basis: 50%;
+  background-color: white;
+}
+
+.center-container {
+  margin: auto;
+  width: 480px;
+}
+
+.search {
+  margin-top: 25px;
+  margin-bottom: 30px;
+
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 40px;
+  height: 15px;
+  color: gray;
+  background-color: #f7f8fa;
+}
+
+.search img {
+  padding: 2px;
+  height: 15px;
+  width: 15px;
+  /* padding: 2px; */
+}
+
+.search .ip {
+  outline: none;
+  border: none;
+  background: none;
+  margin-left: 5px;
+  width: 100%;
+  /* height: 100%; */
+  /* padding: 10px; */
+}
+
+.heading {
+  display: flex;
+  padding: 10px;
+}
+
+.circle1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading .circle1 {
+  background-color: #f9896a;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  margin-right: 5px;
+
+  color: white;
+}
+
+.heading .circle1 small {
+  font-size: 9px;
+}
+
+.heading h1 {
+  font-weight: 500;
+}
+
+.heading span {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.cards {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  height: 190px;
+  min-width: 25%;
+  background-color: #fdecd4;
+  border-radius: 5px;
+  padding: 10px;
+}
+.card2 {
+  height: 190px;
+  min-width: 25%;
+  background-color: #fde4f8;
+  border-radius: 5px;
+  padding: 10px;
+}
+.card3 {
+  height: 190px;
+  min-width: 25%;
+  background-color: #b5e0e8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.line2 {
+  color: #47426e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 160px;
+}
+
+
+
+
+.backl{
+    margin: 25px auto;
+    height: 6px;
+    width: 300px;
+    background-color:#f7f8fb;
+    border-radius: 5px;
+}
+.frontl{
+    margin:auto;
+    height: 6px;
+    width: 90px;
+    background-color:#003ffd;
+    border-radius: 5px;
+    transform: translateY(-30px);
+}
+
+.backl::after,
+.frontl::before{
+    content: "";
+}
+
+
+
+
+.right-box {
+  flex-basis: 30%;
+  background-color: #f8f9fd;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+}
