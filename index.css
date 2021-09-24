@@ -5,33 +5,32 @@
 }
 
 body {
-    width: 100%;
     min-height: 100vh;
-    padding-left: 8%;
-    padding-right: 8%;
     box-sizing: border-box;
-    overflow: hidden;
+
   font-family: "Poppins", sans-serif;
 }
 
 .container {
+  min-width: 1250px;
     display: flex;
+   justify-content: center;
    
 }
 
 
 .left-box {
-  flex-basis: 20%;
+  min-width: 250px;
   background-color: #f9f9f9;
 }
 .center-box {
-  flex-basis: 50%;
+  min-width: 650px;
   background-color: white;
 }
 
 .center-container {
   margin: auto;
-  width: 480px;
+  width: 550px;
 }
 
 .search {
@@ -161,16 +160,103 @@ body {
     transform: translateY(-30px);
 }
 
-.backl::after,
+/* .backl::after,
 .frontl::before{
     content: "";
+} */
+
+.arcircle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow{
+  transform: translateX(-25px);
+}
+
+
+
+.whitecir{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+
+.fl{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.fl h1{
+  font-size: x-large;
+  font-weight: 600;
+}
+.icon1{
+  background-color:#f7f5f9;
+  padding: 8px;
+  border-radius: 8px;
+}
+.icon2{
+  background-color:#5145a0;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.insurance{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon3{
+  background-color:#e8eefa;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.activity .edit{
+  padding-left: 90px;
+}
+
+.cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inp:not(:last-child) {
+  padding-right: 50px;
+  /* height: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.inp > small{
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.icon4{
+  background-color:#ffeee9;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 
 
 
+
+
+
 .right-box {
-  flex-basis: 30%;
+  min-width: 350px;
+  
   background-color: #f8f9fd;
 }
 
